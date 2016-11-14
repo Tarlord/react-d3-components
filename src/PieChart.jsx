@@ -221,8 +221,6 @@ const PieChart = React.createClass({
 
         const pieData = pie(values(data));
 
-        // const translation = `translate(${innerWidth / 2}, ${innerHeight / 2})`;
-
         return (
             <div>
                 <Chart height={height} width={width} margin={margin}>
